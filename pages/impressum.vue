@@ -9,7 +9,7 @@
             Österreich
         </p>
         <p>
-            E-Mail des Projektleiters: <a href="mailto:bedlinger@student.tgm.ac.at" class="hover:underline">bedlinger@student.tgm.ac.at</a>
+            E-Mail des Projektleiters: <a href="mailto:bedlinger@student.tgm.ac.at" class="link">bedlinger@student.tgm.ac.at</a>
         </p>
     </div>
 </template>

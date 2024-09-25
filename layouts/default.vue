@@ -14,7 +14,7 @@
             <div class="p-12 flex flex-col items-center gap-8">
                 <div class="flex gap-4">
                     <nuxt-link to="https://github.com/bedlinger/sustAInableEducation" target="_blank">
-                        <MdiIcon icon="mdiGithub" class="size-10 text-primary" />
+                        <MdiIcon icon="mdiGithub" class="size-10" />
                     </nuxt-link>
                     <nuxt-link to="https://www.tgm.ac.at/" target="_blank">
                         <img src="/img/tgm-logo.png" alt="" class="h-10">
@@ -23,7 +23,7 @@
                 <div class="flex gap-1">
                     <span>©{{ new Date().getFullYear() }} sustAInableEducation</span>
                     <span>|</span>
-                    <span><nuxt-link to="/impressum">Impressum</nuxt-link></span>
+                    <span><nuxt-link to="/impressum" class="link">Impressum</nuxt-link></span>
                 </div>
             </div>
         </footer>
