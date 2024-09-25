@@ -9,7 +9,7 @@
     }
 
     .h1 {
-        @apply text-7xl font-bold mb-8;
+        @apply text-6xl font-bold mb-8;
     }
 
     .h2 {
