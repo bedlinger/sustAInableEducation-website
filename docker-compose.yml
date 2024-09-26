@@ -1,0 +1,15 @@
+services:
+  sustainableeducation-website:
+    build: ./
+    networks:
+      - web
+    environment:
+      - VIRTUAL_HOST=sustainable-edu.at
+      - LETSENCRYPT_HOST=sustainable-edu.at
+      - VIRTUAL_PORT=3000
+    restart: unless-stopped
+
+networks:
+  web:
+    name: web
+    external: true
