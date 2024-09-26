@@ -31,6 +31,10 @@ const filteredReports = computed(() => progressReports.toSorted((a, b) => {
         return 0
     }
 }))
+
+useSeoMeta({
+    title: 'Fortschrittsberichte - sustAInalbeEducation'
+})  
 </script>
 
 <style lang="scss" scoped>

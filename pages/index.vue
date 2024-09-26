@@ -26,7 +26,7 @@
                 </div>
             </div>
             <img src="/img/hand-pflanze.png" alt="Hände mit Pflanze" 
-                class="-mr-24 lg:-mr-12 drop-shadow-2xl flex-1 min-w-0 max-h-[calc(100vh-13rem)]">
+                class="-mr-24 lg:-mr-12 drop-shadow-2xl lg:max-w-[50%] lg:max-h-[calc(100vh-13rem)]">
         </section>
         <section class="section-odd two-col-odd">
             <div class="flex flex-col gap-8 lg:w-1/2">
@@ -44,7 +44,7 @@
                     Neben der Durchlebung einer Story mit verschiedenen Entscheidungspunkten und Abstimmungen, gibt es die Möglichkeit, nach Abschluss einer Lernumgebung sein Wissen mittels Quizze auf die Probe zu stellen.
                 </p>
             </div>
-            <img src="/img/hand-buch.png" alt="" class="-ml-24 lg:-ml-12 drop-shadow-2xl flex-1 min-w-0">
+            <img src="/img/hand-buch.png" alt="Hände mit Buch" class="-ml-24 lg:-mb-12 lg:mt-auto lg:-ml-12 drop-shadow-2xl flex-1 min-w-0">
         </section>
         <section class="section flex flex-col justify-center items-center gap-12">
             <h2 class="h2">Unser Team</h2>
@@ -91,6 +91,10 @@
 import Button from 'primevue/button'
 import Card from 'primevue/card'
 import Timeline from 'primevue/timeline'
+
+useSeoMeta({
+    title: 'sustAInalbeEducation'
+})
 
 const sustainableWords = ["Study", "Think", "Be"]
 const wordPointer = ref(0)
