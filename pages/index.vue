@@ -33,7 +33,7 @@
                 <h2 class="h2">Lerne mit Stories</h2>
                 <p class="text-2xl">
                     <span class="font-bold">Lernen war noch nie so spaßig!</span>
-                    Eine gamifizierte Lernumgebung begleitet einen durch eine KI-Gernerierte Geschichte.
+                    Eine gamifizierte Lernumgebung begleitet einen durch eine KI-Generierte Geschichte.
                 </p>
                 <p class="text-lg">
                     <span class="font-bold">Ausgangslage.</span>
@@ -140,7 +140,7 @@ const team = [
 const milestones = [
     {
         date: '24.09.2024',
-        milestone: 'Wahl der zu verwendenden Technologien fixiert, Machbarkeitsstudie abgeschlossen',
+        milestone: 'Wahl der zu verwendenden Technologien fixiert, Machbarkeit abgeschlossen',
         completed: true
     },
     {
