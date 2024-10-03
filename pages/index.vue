@@ -4,28 +4,24 @@
         <section class="section two-col min-h-[calc(100vh-13rem)]">
             <div class="flex flex-col gap-8 lg:w-1/2">
                 <h1 class="font-bold text-5xl lg:text-7xl flex flex-col gap-2 relative">
-                    <Transition
-                        enter-active-class="duration-300 ease-out"
-                        enter-from-class="-translate-x-16 opacity-0"
-                        enter-to-class="opacity-100"
-                        leave-active-class="duration-200 ease-in absolute"
-                        leave-from-class="opacity-100"
-                        leave-to-class="translate-x-16 opacity-0 absolute"
-                    >
+                    <Transition enter-active-class="duration-300 ease-out" enter-from-class="-translate-x-16 opacity-0"
+                        enter-to-class="opacity-100" leave-active-class="duration-200 ease-in absolute"
+                        leave-from-class="opacity-100" leave-to-class="translate-x-16 opacity-0 absolute">
                         <span :key="wordPointer">{{ sustainableWords[wordPointer] }}</span>
                     </Transition>
                     <span class="text-primary-800 text-6xl lg:text-8xl">sustainable.</span>
                 </h1>
-                <div class="text-2xl">Eigne dir nachhaltig Wissen über Nachhaltigkeit an. Mit unserer Web-App lernst du nicht nur, es macht sogar Spaß!</div>
+                <div class="text-2xl">Eigne dir nachhaltig Wissen über Nachhaltigkeit an. Mit unserer Web-App lernst du
+                    nicht nur, es macht sogar Spaß!</div>
                 <div class="flex flex-wrap gap-2">
-                    <Button as="a" href="https://app.sustainable-edu.at" label="Zur Web-App" size="large" class="!text-xl !p-4" />
+                    <Button href="https://app.sustainable-edu.at" label="Zur Web-App" size="large" disabled class="!text-xl !p-4" />
                     <Button as="router-link" to="/fortschritt" text class="!text-xl !p-4">
                         Fortschrittsberichte
                         <MdiIcon icon="mdiArrowRight" />
                     </Button>
                 </div>
             </div>
-            <img src="/img/hand-pflanze.png" alt="Hände mit Pflanze" 
+            <img src="/img/hand-pflanze.png" alt="Hände mit Pflanze"
                 class="-mr-24 lg:-mr-12 drop-shadow-2xl lg:max-w-[50%] lg:max-h-[calc(100vh-13rem)]">
         </section>
         <section class="section-odd two-col-odd">
@@ -37,14 +33,21 @@
                 </p>
                 <p class="text-lg">
                     <span class="font-bold">Ausgangslage.</span>
-                    Das Thema Nachhaltigkeit wird immer omnipräsenter in unserer Gesellschaft. Deswegen ist eine Lernplattform hilfreich, welche die nachhaltige Aneignung von Wissen darüber ermöglicht. Die rapide Entwicklung von KI kann dabei als Chance genutzt werden. Deswegen soll unsere Arbeit eine gamifizierte, kollaborative Lernumgebung ermöglichen und eine noch nicht vorhandene Lernerfahrung etablieren
+                    Das Thema Nachhaltigkeit wird immer omnipräsenter in unserer Gesellschaft. Deswegen ist eine
+                    Lernplattform hilfreich, welche die nachhaltige Aneignung von Wissen darüber ermöglicht. Die rapide
+                    Entwicklung von KI kann dabei als Chance genutzt werden. Deswegen soll unsere Arbeit eine
+                    gamifizierte, kollaborative Lernumgebung ermöglichen und eine noch nicht vorhandene Lernerfahrung
+                    etablieren
                 </p>
                 <p class="text-lg">
                     <span class="font-bold">Quizze.</span>
-                    Neben der Durchlebung einer Story mit verschiedenen Entscheidungspunkten und Abstimmungen, gibt es die Möglichkeit, nach Abschluss einer Lernumgebung sein Wissen mittels Quizze auf die Probe zu stellen.
+                    Neben der Durchlebung einer Story mit verschiedenen Entscheidungspunkten und Abstimmungen, gibt es
+                    die Möglichkeit, nach Abschluss einer Lernumgebung sein Wissen mittels Quizze auf die Probe zu
+                    stellen.
                 </p>
             </div>
-            <img src="/img/hand-buch.png" alt="Hände mit Buch" class="-ml-24 lg:-mb-12 lg:mt-auto lg:-ml-12 drop-shadow-2xl flex-1 min-w-0">
+            <img src="/img/hand-buch.png" alt="Hände mit Buch"
+                class="-ml-24 lg:-mb-12 lg:mt-auto lg:-ml-12 drop-shadow-2xl flex-1 min-w-0">
         </section>
         <section class="section flex flex-col justify-center items-center gap-12">
             <h2 class="h2">Unser Team</h2>
@@ -73,7 +76,8 @@
             <div class="w-full">
                 <Timeline :value="milestones" class="customized-timeline" align="alternate">
                     <template #marker="slotProps">
-                        <MdiIcon icon="mdiCheck" :class="slotProps.item.completed ? 'bg-primary' : 'bg-slate-200'" class="size-8 p-1 text-white rounded-full" />
+                        <MdiIcon icon="mdiCheck" :class="slotProps.item.completed ? 'bg-primary' : 'bg-slate-200'"
+                            class="size-8 p-1 text-white rounded-full" />
                     </template>
                     <template #content="slotProps">
                         <div class="h-8 flex flex-col justify-center">
