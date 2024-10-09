@@ -47,17 +47,17 @@
         <h2 class="h2">Lerne mit Stories</h2>
         <p class="text-2xl">
           <span class="font-bold">Lernen war noch nie so spaßig!</span>
-          Eine gamifizierte Lernumgebung begleitet dich durch eine
-          KI-Generierte Geschichte.
+          Eine gamifizierte Lernumgebung begleitet dich durch eine KI-Generierte
+          Geschichte.
         </p>
         <p class="text-lg">
           <span class="font-bold">Ausgangslage.</span>
-          Das Thema Nachhaltigkeit wird immer omnipräsenter in unserer
-          Gesellschaft. Deswegen ist eine Lernplattform hilfreich, welche die
-          nachhaltige Aneignung von Wissen darüber ermöglicht. Die rapide
-          Entwicklung von KI kann dabei als Chance genutzt werden. Deswegen soll
-          unsere Arbeit eine gamifizierte, kollaborative Lernumgebung
-          ermöglichen und eine noch nicht vorhandene Lernerfahrung etablieren.
+          Das Thema Nachhaltigkeit wird immer präsenter in unserer Gesellschaft.
+          Deswegen ist eine Lernplattform hilfreich, welche die nachhaltige
+          Aneignung von Wissen darüber ermöglicht. Die rapide Entwicklung von KI
+          kann dabei als Chance genutzt werden. Deswegen soll unsere Arbeit eine
+          gamifizierte, kollaborative Lernumgebung ermöglichen und eine noch
+          nicht vorhandene Lernerfahrung etablieren.
         </p>
         <p class="text-lg">
           <span class="font-bold">Quizze.</span>
