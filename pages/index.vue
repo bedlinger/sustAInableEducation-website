@@ -4,14 +4,7 @@
     <section class="section two-col min-h-[calc(100vh-13rem)]">
       <div class="flex flex-col gap-8 lg:w-1/2">
         <h1 class="font-bold text-5xl lg:text-7xl flex flex-col gap-2 relative">
-          <Transition
-            enter-active-class="duration-300 ease-out"
-            enter-from-class="-translate-x-16 opacity-0"
-            enter-to-class="opacity-100"
-            leave-active-class="duration-200 ease-in absolute"
-            leave-from-class="opacity-100"
-            leave-to-class="translate-x-16 opacity-0 absolute"
-          >
+          <Transition name="word-animation" mode="out-in">
             <span :key="wordPointer">{{ sustainableWords[wordPointer] }}</span>
           </Transition>
           <span class="text-primary-800 text-6xl lg:text-8xl"
@@ -140,7 +133,11 @@
           </Card>
         </nuxt-link>
       </div>
-      <Button @click="loadMoreReports" v-if="displayedReportsCount < filteredReports.length" label="Mehr anzeigen" />
+      <Button
+        @click="loadMoreReports"
+        v-if="displayedReportsCount < filteredReports.length"
+        label="Mehr anzeigen"
+      />
     </section>
   </div>
 </template>
