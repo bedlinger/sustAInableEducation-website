@@ -52,6 +52,7 @@ export default defineNuxtConfig({
     ],
     "@nuxtjs/google-fonts",
     "nuxt-mdi",
+    "@nuxt/image",
   ],
   router: {
     options: {
