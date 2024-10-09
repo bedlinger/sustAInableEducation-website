@@ -58,6 +58,11 @@ export default defineNuxtConfig({
       scrollBehaviorType: "smooth",
     },
   },
+  routeRules: {
+    "/fortschritt": {
+      redirect: "/#fortschritt",
+    }
+  },
   primevue: {
     options: {
       theme: {
