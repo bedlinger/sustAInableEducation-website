@@ -127,7 +127,7 @@
     >
       <h2 class="h2">Fortschritts&shy;berichte</h2>
       <div class="flex flex-col gap-4">
-        <nuxt-link v-for="report in filteredReports" :to="report._path">
+        <nuxt-link v-for="report in displayedReports" :to="report._path">
           <Card>
             <template #title>
               <div class="flex justify-between">
@@ -140,6 +140,7 @@
           </Card>
         </nuxt-link>
       </div>
+      <Button @click="loadMoreReports" v-if="displayedReportsCount < filteredReports.length" label="Mehr anzeigen" />
     </section>
   </div>
 </template>
@@ -177,6 +178,13 @@ const filteredReports = computed(() =>
       return 0;
     }
   })
+);
+const displayedReportsCount = ref(3);
+const loadMoreReports = () => {
+  displayedReportsCount.value += 3;
+};
+const displayedReports = computed(() =>
+  filteredReports.value.slice(0, displayedReportsCount.value)
 );
 
 const team = [
