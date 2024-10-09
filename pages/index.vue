@@ -257,4 +257,32 @@ const milestones = [
 .customized-timeline .p-timeline-event-opposite {
   flex: 0;
 }
+
+.word-animation-enter-active {
+  transition: all 0.3s ease-out;
+}
+
+.word-animation-enter-from {
+  transform: translateX(-4rem);
+  opacity: 0;
+}
+
+.word-animation-enter-to {
+  opacity: 1;
+}
+
+.word-animation-leave-active {
+  transition: all 0.2s ease-in;
+  position: absolute;
+}
+
+.word-animation-leave-from {
+  opacity: 1;
+}
+
+.word-animation-leave-to {
+  transform: translateX(4rem);
+  opacity: 0;
+  position: absolute;
+}
 </style>
