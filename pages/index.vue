@@ -47,7 +47,7 @@
         <h2 class="h2">Lerne mit Stories</h2>
         <p class="text-2xl">
           <span class="font-bold">Lernen war noch nie so spaßig!</span>
-          Eine gamifizierte Lernumgebung begleitet einen durch eine
+          Eine gamifizierte Lernumgebung begleitet dich durch eine
           KI-Generierte Geschichte.
         </p>
         <p class="text-lg">
@@ -57,7 +57,7 @@
           nachhaltige Aneignung von Wissen darüber ermöglicht. Die rapide
           Entwicklung von KI kann dabei als Chance genutzt werden. Deswegen soll
           unsere Arbeit eine gamifizierte, kollaborative Lernumgebung
-          ermöglichen und eine noch nicht vorhandene Lernerfahrung etablieren
+          ermöglichen und eine noch nicht vorhandene Lernerfahrung etablieren.
         </p>
         <p class="text-lg">
           <span class="font-bold">Quizze.</span>
