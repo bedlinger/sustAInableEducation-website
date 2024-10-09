@@ -31,7 +31,13 @@
           >
         </div>
         <div class="flex gap-1">
-          <Button as="router-link" to="/" text class="!text-xl">
+          <Button
+            as="router-link"
+            to="#"
+            @click="scrollToTop"
+            text
+            class="!text-xl"
+          >
             Zurück nach oben
             <MdiIcon icon="mdiArrowUpThick" />
           </Button>
@@ -43,6 +49,13 @@
 
 <script setup>
 import Button from "primevue/button";
+
+const scrollToTop = () => {
+  window.scrollTo({
+    top: 0,
+    behavior: "smooth",
+  });
+};
 </script>
 
 <style lang="scss" scoped></style>
