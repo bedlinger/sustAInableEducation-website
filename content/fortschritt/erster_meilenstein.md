@@ -1,16 +1,16 @@
 ---
 title: Erster Meilenstein
 date: 24.09.2024
-description: Erster Meilenstein wurde vom Team erreicht.
+description: Bericht der Ergebnisse der Machbarkeitsstudien für die Frontend-, Backend- und KI-Komponenten des Projekts und beschreibt die getroffenen Technologieentscheidungen.
 ---
 
 ## Ausgangslage
 
-Schon am Ende der gemeinsamen Projektwoche haben wir begonnen unsere Machbarkeitsstudien zu erstellen, um so die jeweiligen Technologien zu fixieren. Dies war auch unser erster Meilenstein, welcher einen reibungslosen Start in die Projektphase ermöglichen sollte.
+Schon am Ende der Projektwoche wurde begonnen die Machbarkeitsstudien zu erstellen, um so die jeweiligen Technologien zu fixieren. Dies war auch der erste Meilenstein, welcher einen reibungslosen Start in die ermöglichen sollte.
 
 ## Machbarkeitsstudie Frontend
 
-Im Rahmen der Machbarkeitsanalyse für das Frontend wurde intensiv untersucht, welche Technologien die Benutzeroberfläche unserer Anwendung am besten unterstützen. Nach Abwägung mehrerer Optionen wie Nuxt, Next.js, SvelteKit und Angular wurde sich für Nuxt entschieden, da es durch die enge Anbindung an Vue.js sowie das serverseitige Rendering optimale Ladezeiten und Benutzerfreundlichkeit gewährleistet. Für die Gestaltung und Implementierung von UI-Komponenten fiel die Wahl auf PrimeVue, welches mit seiner Vielseitigkeit und der Möglichkeit, Komponenten effizient zu integrieren, überzeugt. Ergänzt wird das Styling der Website durch TailwindCSS, das durch seine einfache Nutzbarkeit und Flexibilität eine zügige Entwicklung ermöglicht
+Im Rahmen der Machbarkeitsanalyse für das Frontend wurde intensiv untersucht, welche Technologien die Benutzeroberfläche für die Web-App am besten unterstützen. Nach Abwägung mehrerer Optionen wie Nuxt, Next.js, SvelteKit und Angular wurde sich für Nuxt entschieden, da es durch die enge Anbindung an Vue.js sowie das serverseitige Rendering optimale Ladezeiten und Benutzerfreundlichkeit gewährleistet. Für die Gestaltung und Implementierung von UI-Komponenten fiel die Wahl auf PrimeVue, welches mit seiner Vielseitigkeit und der Möglichkeit, Komponenten effizient zu integrieren, überzeugt. Ergänzt wird das Styling der Website durch TailwindCSS, das durch seine einfache Nutzbarkeit und Flexibilität eine zügige Entwicklung ermöglicht
 
 ## Machbarkeitsstudie Backend
 
@@ -28,4 +28,8 @@ Im Rahmen der Machbarkeitsstudie zur KI-gestützten Quiz-Generierung wurde unter
 
 ## Fazit
 
-Die Machbarkeitsstudien haben uns geholfen, die optimalen Technologien für die Umsetzung unseres Projekts zu ermitteln. Durch die intensive Prüfung der verschiedenen Optionen konnten wir den ersten Meilenstein erfolgreich erreichen. Die Entscheidungen zugunsten von Nuxt, PrimeVue, TailwindCSS, ASP.NET und Microsoft SQL Server bilden die Grundlage für die weitere Entwicklung und Umsetzung unseres Projekts. Allerdings stellt sich noch die Frage, welches LLM zum Einsatz kommen soll, da sich in den Bereichen KI-Story und KI-Quiz nicht dieselben Modelle als die beste Option herausgestellt haben. Wir haben uns daher für Llama 3.1 entschieden, da es in beiden Bereichen gute Resultate lieferte. Wir sind zuversichtlich, dass wir mit diesen Technologien und Lösungen unsere Ziele erreichen und unser Projekt zu einem erfolgreichen Abschluss bringen können. Jetzt können wir mit der konkreten Entwicklung beginnen. Der nächste Meilenstein ist am 15. 10. fällig, in dem das Mockup für das Frontend erstellt, die Datenbank für das Backend eingerichtet und die Erstellung der anonymen Benutzernamen abgeschlossen werden soll.
+Die Machbarkeitsstudien haben geholfen, die optimalen Technologien für die Umsetzung des Diplomprojekts zu ermitteln. Durch die intensive Prüfung der verschiedenen Optionen konnten der erste Meilenstein erfolgreich erreicht werden. Die Entscheidungen zugunsten von Nuxt, PrimeVue, TailwindCSS, ASP.NET und Microsoft SQL Server bilden die Grundlage für die weitere Entwicklung und Umsetzung. Allerdings stellt sich noch die Frage, welches LLM zum Einsatz kommen soll, da sich in den Bereichen KI-Story und KI-Quiz nicht dieselben Modelle als die beste Option herausgestellt haben. Es wurde sich daher für Llama 3.1 entschieden, da es in beiden Bereichen gute Resultate lieferte.
+
+## Kommentar des Teams
+
+Wir sind zuversichtlich, dass wir mit diesen Technologien und Lösungen unsere Ziele erreichen und unser Projekt zu einem erfolgreichen Abschluss bringen können. Jetzt können wir mit der konkreten Entwicklung beginnen. Der nächste Meilenstein ist am 15.10. fällig, in dem das Mockup für das Frontend erstellt, die Datenbank für das Backend eingerichtet und die Erstellung der anonymen Benutzernamen abgeschlossen werden soll.
