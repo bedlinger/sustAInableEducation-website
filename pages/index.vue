@@ -3,8 +3,10 @@
     <div class="background"></div>
     <section class="section two-col min-h-[calc(100vh-13rem)]">
       <div class="flex flex-col gap-8 lg:w-1/2">
-        <h1 class="font-bold text-5xl lg:text-7xl flex flex-col gap-2 relative">
-          <Transition name="word-animation" mode="out-in">
+        <h1
+          class="font-bold text-5xl lg:text-7xl flex flex-col gap-2 relative h-28 lg:h-44"
+        >
+          <Transition name="word-animation">
             <span :key="wordPointer">{{ sustainableWords[wordPointer] }}</span>
           </Transition>
           <span class="text-primary-800 text-6xl lg:text-8xl"
