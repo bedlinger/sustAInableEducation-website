@@ -15,6 +15,9 @@
 </template>
 
 <script setup>
+useSeoMeta({
+  title: "Impressum",
+});
 
 </script>
 
