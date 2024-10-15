@@ -223,7 +223,7 @@ const milestones = [
     date: "15.10.2024",
     milestone:
       "Mockup der Website fertiggestellt, Datenbank aufgesetzt, Benutzernamen Erstellung fertiggestellt",
-    completed: false,
+    completed: true,
   },
   {
     date: "08.11.2024",
