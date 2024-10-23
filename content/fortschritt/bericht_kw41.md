@@ -12,11 +12,11 @@ Grundlage der Arbeit für die Zeit zwischen dem 24.09.2024 und dem 08.10.2024 wa
 
 Im Bereich Frontend, wurden besonders intensiv die Mockups erstellt, denn nur mit einer guten Design Grundlage, kann das Frontend später optimal umgesetzt werden. Die Mockups sind aktuell noch in Arbeit, aber werden bis zum nächsten Meilenstein am 15.10.2024 fertiggestellt sein. Trotzdem sind hier schon ein paar Einblicke in die Arbeit:
 
-![Mockup der Home-Ansicht](/img/mockup-home.png)
+![Mockup der Home-Ansicht](/img/kw41/mockup-home.png)
 
-![Mockup der Lernumgebungen-Übersicht](/img/mockup-lernumgebungen.png)
+![Mockup der Lernumgebungen-Übersicht](/img/kw41/mockup-lernumgebungen.png)
 
-![Mockup der Lernumgebungs-Ansicht für Hosts vor der Abstimmung und das Log ist geöffnet](/img/mockup-lernumgebung-host-pre-vote-log-opened.png)
+![Mockup der Lernumgebungs-Ansicht für Hosts vor der Abstimmung und das Log ist geöffnet](/img/kw41/mockup-lernumgebung-host-pre-vote-log-opened.png)
 
 Was auch noch in Abstimmung mit den anderen im Team gemacht wurde ist das Branding von sustAInableEducation. Hierbei wurde ein Logo erstellt, eine Farbpalette gewählt und eine Schriftart festgelegt. Diese Elemente waren wichtig, weil sie haben auch das Design der Projektwebsite beeinflusst.
 
