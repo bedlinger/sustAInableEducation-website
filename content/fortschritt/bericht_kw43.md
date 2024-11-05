@@ -1,7 +1,7 @@
 ---
 title: Fortschrittsbericht KW43
 date: 22.10.2024
-description: Bericht für die Fortschritte in den Bereichen Frontend, Backend, KI-Story und KI-Quiz für die Kalenderwoche 43, einschließlich der erstellten Mockups, der Einrichtung der Datenbank, der Literaturrecherche und der geplanten Nutzung von Llama 3.1.
+description: Bericht über die Fortschritte im Diplomprojekt für die Kalenderwoche 43, einschließlich der abgeschlossenen Mockups, der beginnenden Prototyp-Entwicklung, der Einrichtung des KI-Servers und der Erstellung eines Projektplakats.
 ---
 
 ## Ausgangslage
