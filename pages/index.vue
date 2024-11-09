@@ -229,7 +229,7 @@ const milestones = [
     date: "08.11.2024",
     milestone:
       "Prototyp der Website fertiggestellt, Prototyp der Story Generierung fertiggestellt",
-    completed: false,
+    completed: true,
   },
   {
     date: "10.12.2024",
