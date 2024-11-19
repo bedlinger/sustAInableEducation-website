@@ -1,5 +1,5 @@
 ---
-title: Fortschrittsbericht KW45
+title: Fortschrittsbericht KW47
 date: 19.11.2024
 description: Bericht über die Fortschritte in den Bereichen Frontend, Backend, KI-Story und KI-Quiz für Kalenderwoche 47, einschließlich der Fertigstellung von Prototypen, Backend-Funktionen und der Vertiefung der Literaturrecherche.
 ---
