@@ -21,7 +21,7 @@ Im Bereich der KI-Story wurde die Literaturrecherche abgeschlossen, wodurch eine
 
 ## Themenstellung KI-Quiz
 
-Die Literaturrecherche zur KI-gestützten Generierung von Quiz-Inhalten wurde weiter vertieft. Ein besonderer Fokus lag hierbei auf dem Themenbereich KI. 
+Die Literaturrecherche zur KI-gestützten Generierung von Quiz-Inhalten wurde weiter vertieft. Ein besonderer Fokus lag hierbei auf dem Themenbereich KI.
 
 ## Fazit
 
