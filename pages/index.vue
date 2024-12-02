@@ -150,7 +150,7 @@ import Card from "primevue/card";
 import Timeline from "primevue/timeline";
 
 useSeoMeta({
-  title: "sustAInalbeEducation",
+  title: "sustAInableEducation",
 });
 
 const sustainableWords = ["Study", "Think", "Be"];
