@@ -14,7 +14,7 @@
       <div class="p-12 flex flex-col items-center gap-8">
         <div class="flex gap-4">
           <nuxt-link
-            to="https://github.com/bedlinger/sustAInableEducation"
+            to="https://github.com/sustAInableEducation/sustAInableEducation"
             target="_blank"
           >
             <MdiIcon icon="mdiGithub" class="size-10" />

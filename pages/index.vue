@@ -71,16 +71,17 @@
     <section class="section flex flex-col justify-center items-center gap-12">
       <h2 class="h2">Unser Team</h2>
       <div class="flex justify-center flex-wrap gap-6">
-        <Card class="w-80 overflow-hidden" v-for="m in team">
+        <Card class="w-80 overflow-hidden text-center" v-for="m in team">
           <template #header>
             <img :src="m.picture" :alt="'Portrait von ' + m.name" />
           </template>
           <template #title>{{ m.name }}</template>
           <template #subtitle>{{ m.role }}</template>
           <template #content>
-            <div class="flex items-center gap-2">
-              <MdiIcon icon="mdiEmail" />
-              <a :href="'mailto:' + m.email">{{ m.email }}</a>
+            <div class="flex justify-center items-center gap-2 mt-1.5">
+              <a :href="'mailto:' + m.email"><MdiIcon icon="mdiEmail" class="size-5" /></a>
+              <a :href="m.github" target="_blank"><MdiIcon icon="mdiGithub" class="size-5" /></a>
+              <a :href="m.linkedin" target="_blank"><MdiIcon icon="mdiLinkedin" class="size-5" /></a>
             </div>
           </template>
         </Card>
@@ -192,24 +193,32 @@ const team = [
     name: "Benjamin Edlinger",
     role: "Projektleiter, KI-Content-Entwickler",
     email: "bedlinger@student.tgm.ac.at",
+    github: "https://github.com/bedlinger",
+    linkedin: "https://www.linkedin.com/in/benjamin-edlinger-930169314/",
   },
   {
     picture: "/img/muehlboeck.jpg",
     name: "Leo Mühlböck",
     role: "Backend-Entwickler",
     email: "lmuehlboeck@student.tgm.ac.at",
+    github: "https://github.com/lmuehlboeck",
+    linkedin: "https://www.linkedin.com/in/leo-m%C3%BChlb%C3%B6ck-1bb5b3229/",
   },
   {
     picture: "/img/list.jpg",
     name: "Leander List",
     role: "Frontend-Entwickler",
     email: "llist@student.tgm.ac.at",
+    github: "https://github.com/leanderlist",
+    linkedin: "https://www.linkedin.com/in/leander-list-424110333/",
   },
   {
     picture: "/img/bohaczyk.jpg",
     name: "Kacper Bohaczyk",
     role: "KI-Quiz-Entwickler",
     email: "kbohaczyk@student.tgm.ac.at",
+    github: "https://github.com/kaperbm",
+    linkedin: "https://www.linkedin.com/in/kacper-bohaczyk-68127a258/",
   },
 ];
 const milestones = [
