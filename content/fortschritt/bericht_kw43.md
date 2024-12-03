@@ -20,24 +20,23 @@ Im Bereich Frontend gab es bedeutende Fortschritte:
 ![Mockup-Frontend-4](/img/kw43/Lernumgebung-Host.png)
 ![Mockup-Frontend-5](/img/kw43/Lernumgebung-Result.png)
 ![Mockup-Frontend-6](/img/kw43/Lernumgebung-Settings.png)
-![Mockup-Frontend-7](/img/kw43/Lernumgebung-Settings.png)
-![Mockup-Frontend-8](/img/kw43/Lernumgebung-User.png)
-![Mockup-Frontend-9](/img/kw43/Lernumgebungen-History.png)
-![Mockup-Frontend-10](/img/kw43/Lernumgebungen.png)
-![Mockup-Frontend-11](/img/kw43/Quiz-Result.png)
-![Mockup-Frontend-12](/img/kw43/Quizuebersicht.png)
-![Mockup-Frontend-13](/img/kw43/Quizuebersicht-Quiz-Configuration.png)
+![Mockup-Frontend-7](/img/kw43/Lernumgebung-User.png)
+![Mockup-Frontend-8](/img/kw43/Lernumgebungen-History.png)
+![Mockup-Frontend-9](/img/kw43/Lernumgebungen.png)
+![Mockup-Frontend-10](/img/kw43/Quiz-Result.png)
+![Mockup-Frontend-11](/img/kw43/Quizuebersicht.png)
+![Mockup-Frontend-12](/img/kw43/Quizuebersicht-Quiz-Configuration.png)
 
 
 - Die Entwicklung des ersten Frontend-Prototyps wurde begonnen. Der Prototyp basiert auf den fertigen Mockups und wird bis zum nächsten Meilenstein weiterentwickelt.
-- Es wurde eine umfassende Recherche zu Nuxt, einem Vue.js-basierten Framework, durchgeführt, das für die Implementierung des Frontends verwendet werden soll. 
+- Es wurde eine umfassende Recherche zu Nuxt, einem Vue.js-basierten Framework, durchgeführt, das für die Implementierung des Frontends verwendet werden soll.
 
 
 ## Themenstellung Backend
 
 - Es wurde ein UML-Diagramm erstellt, das die Datenstruktur und die wichtigsten Abläufe im Backend visualisiert. Dieses Diagramm dient als Grundlage für die weitere Backend-Entwicklung und hilft, komplexe Beziehungen zwischen Datenbank und Applikation besser zu verstehen.
 
-![UML-Backend](/img/UML_Backend.jpeg)
+![UML-Backend](/img/kw43/UML_Backend.jpeg)
 
 
 - Ein Konzept für die Datenstruktur wurde ausgearbeitet, das sich auf die sichere Speicherung von Benutzerdaten und die effiziente Verwaltung der Lerninhalte konzentriert.
